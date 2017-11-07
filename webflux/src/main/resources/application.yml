@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  h2:
+    console:
+      enabled: true
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mywork
+      reactive-repositories:
+        enabled: true
