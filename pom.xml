@@ -21,6 +21,7 @@
     <modules>
         <module>webflux</module>
         <module>webclient</module>
+        <module>kotlinwebflux</module>
     </modules>
 
     <properties>
